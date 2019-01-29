@@ -3,12 +3,12 @@ import { ADD_TODO, COMPLETE_TODO, REMOVE_TODO } from "../actions";
 const initialState = {
   todos: [
     {
-      text: "Clean Basement",
+      text: "add commit",
       completed: false,
       id: 0
     }
   ],
-  name: "Ryan"
+  name: "Brad"
 };
 
 export const todosReducer = (state = initialState, action) => {
